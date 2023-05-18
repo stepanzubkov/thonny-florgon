@@ -1,6 +1,6 @@
-.. image:: https://github.com/thonny/thonny/blob/master/thonny/res/Ukraine.png
+.. image:: https://github.com/thonny-florgon/thonny/blob/master/thonny/res/Florgon.png
 
-`Support Ukraine! <https://github.com/thonny/thonny/wiki/Support-Ukraine>`_
+`Support Florgon! mailto:info@florgon.com`_
 
 ======
 Thonny
