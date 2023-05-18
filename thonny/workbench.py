@@ -687,11 +687,11 @@ class Workbench(tk.Tk):
             )
 
         self.add_command(
-            "SupportUkraine",
+            "SupportFlorgon",
             "help",
-            tr("Support Ukraine"),
-            self._support_ukraine,
-            image="Ukraine",
+            tr("Support Florgon"),
+            self._support_florgon,
+            image="Florgon",
             caption=tr("Support"),
             include_in_toolbar=True,
             group=101,
@@ -785,18 +785,16 @@ class Workbench(tk.Tk):
         # self._init_support_ukraine_bar()
         self._init_backend_switcher()
 
-    def _init_support_ukraine_bar(self) -> None:
+    def _init_support_florgon_bar(self) -> None:
         ukraine_label = create_action_label(
             self._statusbar,
-            tr("Support Ukraine"),
-            self._support_ukraine,
-            # image=self.get_image("Ukraine"),
-            # compound="left"
+            tr("Support Florgon"),
+            self._support_florgon,
         )
         ukraine_label.grid(row=1, column=1, sticky="wsn")
 
-    def _support_ukraine(self, event=None) -> None:
-        webbrowser.open("https://github.com/thonny/thonny/wiki/Support-Ukraine")
+    def _support_florgon(self, event=None) -> None:
+        webbrowser.open("mailto:info@florgon.com")
 
     def _init_backend_switcher(self):
         # Set up the menu
