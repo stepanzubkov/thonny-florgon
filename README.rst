@@ -1,4 +1,4 @@
-.. image:: https://github.com/thonny-florgon/thonny/blob/master/thonny/res/Florgon.png
+.. image:: https://github.com/stepanzubkov/thonny-florgon/blob/master/thonny/res/Florgon_2x.png
 
 `Support Florgon! mailto:info@florgon.com`_
 
